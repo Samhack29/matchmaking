@@ -1,8 +1,9 @@
-#include <stdio.h>
+#include<stdio.h>
 #include<pthread.h>
 #include<semaphore.h>
 #include<stdlib.h>
 sem_t var1;
+void *game();
 void p_available();
 void pre_match();
 int flag=0;
@@ -65,4 +66,5 @@ int main()
     sem_init(&var1,0,1);
     pre_match();
     p_available();
+    return 0;
 }
