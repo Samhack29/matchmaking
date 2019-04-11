@@ -4,8 +4,8 @@
 #include<stdlib.h>
 void *game();
 void p_available();
-sem_t var1;
 void pre_match();
+sem_t var1;
 int flag=0;
 void pre_match()
 {
