@@ -3,8 +3,8 @@
 #include<semaphore.h>
 #include<stdlib.h>
 void *game();
-sem_t var1;
 void p_available();
+sem_t var1;
 void pre_match();
 int flag=0;
 void pre_match()
