@@ -2,8 +2,8 @@
 #include<pthread.h>
 #include<semaphore.h>
 #include<stdlib.h>
-sem_t var1;
 void *game();
+sem_t var1;
 void p_available();
 void pre_match();
 int flag=0;
